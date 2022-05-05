@@ -37,8 +37,9 @@ export default {
   components: {
     MenuButtons
   },
-  metaInfo: {
-    title: "Frank Marras Portfolio"
+  mounted: function(){
+    document.title= "Frank Marras Portfolio"
+
   }
 }
 
