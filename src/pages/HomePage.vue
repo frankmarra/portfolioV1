@@ -35,9 +35,10 @@ import MenuButtons from '../components/MenuButtons.vue'
 export default {
   name: 'HomePage',
   components: {
-
     MenuButtons
-
+  },
+  metaInfo: {
+    title: "Frank Marras Portfolio"
   }
 }
 
