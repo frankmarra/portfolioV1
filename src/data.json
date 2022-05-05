@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Record-Reveal",
+    "techUsed": "Html, Css, JavaScript",
+    "type": "Game",
+    "description": "Record Reveal is a simple game where the player must pick squares and try and match their contents.  A correct guess awards points and reveals part of an album cover that is being pulled from the discogs API.  Your scores are stored in local storage so you can keep trying to beat your Hi-Score!",
+    "images": {
+      "sm": "https://i.imgur.com/V3xy5eI.jpg",
+      "lg": "https://i.imgur.com/V3xy5eI.jpg"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Backlog",
+    "techUsed": {
+      "frontEnd": "React, CSS, JavaScript",
+      "backEnd": "MongoDB, Mongoose, Express"
+    },
+    "type": "Game Management",
+    "description": "Backlog aims to help you keep track of your library of games by sorting them into catagories of 'Not Started', 'In Progress', and 'Completed'. You are also able to add notes to the games in your library, so if you decide to take a break from one game and start another. This will make it easier to come back to a game later on and have useful information to look at.",
+    "images": {
+      "sm": "https://i.imgur.com/UZFP35o.png",
+      "lg": "https://i.imgur.com/baltRWl.png"
+    }
+  }
+]

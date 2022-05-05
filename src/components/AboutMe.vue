@@ -1,15 +1,11 @@
 <template>
   <div class="about-me-wrapper">
-    <div class="about-me-left">
-      <div class="about-me-img">
-        <img src="../assets/MePic.jpeg" alt="Frank Marra" />
+    <div class="about-me-copy-wrapper">
+      <div class="about-me-copy">
+      <h3>Thank's for stopping by</h3>
+      <p>I am a software engineer with a passion for creation.  I have walked many paths, worn many hats, and the main constant throughout is the making of something from nothing.</p>
       </div>
     </div>
-    <div class="about-me-right">
-      <div class="about-me-copy">
-        Hello, I'm Frank.
-      </div>
-    </div>  
   </div>
 </template>
 
