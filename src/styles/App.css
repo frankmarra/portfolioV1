@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Molengo&display=swap');
+
+
 * {
   box-sizing: border-box;
 }
@@ -5,7 +9,7 @@
 body {
   height: 100vh;
   margin: 0;
-  background-color: rgb(92, 92, 92);
+  background-color: #261C1A;
 }
 
 /* HomePage styles */
@@ -14,11 +18,28 @@ body {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
 }
+.left-gutter {
+  height: 100vh;
+  background-color: #594842;
+}
 
+.right-gutter {
+  height: 100vh;
+  background-color: #594842;
+}
 .content {
   grid-column: 2 / 3;
   display: flex;
   flex-flow: column;
+  border-left: 1px solid #A69992;
+  border-right: 1px solid #A69992;
+}
+
+.greeting {
+  font-family: 'Molengo', sans-serif;
+  color:#D99C79;
+  font-size: 2.5rem;
+  text-align: center;
 }
 
 /* AboutMe styles */
@@ -33,12 +54,32 @@ body {
 .about-me-img img{
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10p;
-  height: 200px;
-  width: 160px;
+  height: 20vh;
+  width: auto;
 }
 
 .about-me-right {
   background-color: #f2f2f2;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+/* Menu Buttons */
+
+.menu-buttons {
+  display: flex;
+  margin: 5%;
+  justify-content: space-around;
+}
+
+.menu-button-wrapper {
+  border: 3px solid #A69992;
+  border-radius: 10px;
+  padding: 35px;
+}
+
+.menu-button {
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
 }

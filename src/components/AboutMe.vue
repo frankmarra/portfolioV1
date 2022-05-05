@@ -2,7 +2,7 @@
   <div class="about-me-wrapper">
     <div class="about-me-left">
       <div class="about-me-img">
-        <img src="../assets/about_me_pic.jpeg" alt="Frank Marra" />
+        <img src="../assets/MePic.jpeg" alt="Frank Marra" />
       </div>
     </div>
     <div class="about-me-right">
