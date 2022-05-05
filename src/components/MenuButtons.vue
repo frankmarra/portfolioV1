@@ -3,7 +3,7 @@
       <div class="menu-button-wrapper" @click="navigateItem('portfolio')">
           <button class="portfolio-button menu-button">Portfolio</button>
       </div>
-      <div class="menu-button-wrapper" @click="navigateItem('about')">
+      <div class="menu-button-wrapper" @click="navigateItem('/')">
           <button class="about-button menu-button">About Me</button>
       </div>
       <div class="menu-button-wrapper" @click="navigateItem('resume')">

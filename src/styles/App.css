@@ -150,6 +150,10 @@ iframe.resume {
   display: flex;
   justify-content: flex-start;
   overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  
 }
 
 .project-wrapper {
@@ -159,8 +163,8 @@ iframe.resume {
   border-radius: 10px;
 }
   .project-image-wrapper img {
-  height: 100%;
-  width: 25vw;
+  height: auto;
+  width: 100%;
 }
 .project-name {
   background-color: #A69992;
@@ -178,9 +182,6 @@ iframe.resume {
 .project-detail-image {
   width: 65%;
   height: auto;
-}
-
-.project-detail-info {
 }
 
 .project-detail-name {

@@ -23,5 +23,19 @@
       "sm": "https://i.imgur.com/UZFP35o.png",
       "lg": "https://i.imgur.com/baltRWl.png"
     }
+  },
+  {
+    "id": 3,
+    "name": "Work-Track",
+    "techUsed": {
+      "frontEnd": "React, CSS, JavaScript",
+      "backEnd": "PSQL, Express, Sequelize, JWT Auth"
+    },
+    "type": "Time Management",
+    "description": "WorkTrackApp is here for your project management and tracking needs. Create an account. Add your business, positions, and employees to start tracking immediately! Easily pull up records for a range of dates and see how many worker hours were logged over the time period. WorkTrack is designed to make managing your employees simple & efficient.  This was a group project that we were able to spin up in a week.  Credit to my teammates, Bryan Sanchez and Jason McCoy.",
+    "images": {
+      "sm": "https://i.imgur.com/U4rjsan.png",
+      "lg": "https://i.imgur.com/HI4pEGe.png"
+    }
   }
 ]
