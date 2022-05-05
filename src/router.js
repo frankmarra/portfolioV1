@@ -6,10 +6,9 @@ import Project from './components/Project'
 
 const routes = [
   { path: '/resume', component: Resume, name: 'Resume' },
-  { path: '/about', component: AboutMe, name: 'AboutMe' },
+  { path: '/', component: AboutMe, name: 'AboutMe' },
   { path: '/portfolio', component: Portfolio, name: 'Portfolio' },
-  { path: '/portfolio/:project_id', component: Project, name: 'Project' },
-  { path: '/', redirect: '/about' }
+  { path: '/portfolio/:project_id', component: Project, name: 'Project' }
 ]
 
 const router = createRouter({
