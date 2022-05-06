@@ -46,7 +46,37 @@ body {
 }
 
 .greeting h1 {
+  margin-top: 3vh;
   margin-bottom: 0;
+}
+
+.greeting h4 {
+  margin: 0;
+}
+
+#word-list:before {
+  content: "Software Engineer";
+  
+  animation: cycle 8s infinite;
+}
+
+@keyframes cycle {
+  0% {
+    content: 'Software Engineer';
+  }
+  25% {
+    content: 'Audio Engineer';
+  }
+  50% {
+    content: "Musician";
+  }
+  75% {
+    content: "Dog Dad";
+  }
+  to {
+    content: "Human";
+    
+  }
 }
 
 .component-view {
@@ -88,16 +118,30 @@ body {
 }
 
 .about-me-copy-wrapper {
+  overflow-y: scroll;
   background-color: #8C7365;
   border-radius: 10px;
   width: 80%;
   font-family: 'Nunito', sans-serif;
   color: #261C1A;
+  height: 60vh;
+  padding: 0 3vw;
 }
 
-.about-me-copy-wrapper h3 {
+.about-me-copy-wrapper h3, h4 {
   text-align: center;
   font-size: 1.4rem;
+  margin: 0;
+}
+
+
+.skills-list {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
 }
 
 /* Menu Buttons */
@@ -132,7 +176,7 @@ body {
   display: flex;
   flex-flow: column;
   align-items: center;
-  margin: 2vh 5vh;
+  margin: 2vh 5vw;
   width: 100%;
 }
 
@@ -145,6 +189,10 @@ iframe.resume {
 }
 
 /* Portfolio */
+
+.portfolio-wrapper {
+  width: 100%;
+}
 
 .portfolio-carousel {
   display: flex;
@@ -159,8 +207,9 @@ iframe.resume {
 .project-wrapper {
   display: flex;
   flex-flow: column;
-  margin: 5vh 5vw;
+  margin: 50px 20px;
   border-radius: 10px;
+  width: 350px;
 }
   .project-image-wrapper img {
   height: auto;
@@ -169,6 +218,7 @@ iframe.resume {
 .project-name {
   background-color: #A69992;
   color: #261C1A;
+  font-size: 1.3rem;
 }
 
 /* Project Page */
