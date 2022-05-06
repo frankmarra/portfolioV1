@@ -5,7 +5,7 @@
     
     <div class='project-detail-info'>
     <div class="project-detail-name">
-      <h2>{{ project.name }}</h2>
+      <a :href="project.link">{{ project.name }}</a>
     </div>
     <div class="project-detail-description">
       <p>{{project.description}}</p>

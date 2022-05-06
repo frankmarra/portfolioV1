@@ -55,17 +55,17 @@ body {
 }
 
 #word-list:before {
-  content: "Software Engineer";
+  content: "Human";
   
   animation: cycle 8s infinite;
 }
 
 @keyframes cycle {
   0% {
-    content: 'Software Engineer';
+    content: 'Human';
   }
   25% {
-    content: 'Audio Engineer';
+    content: 'Software Engineer';
   }
   50% {
     content: "Musician";
@@ -101,7 +101,7 @@ body {
   transition: 0.3s;
 }
 
-.fa-github:hover, .fa-linkedin:hover, .fa-html5:hover, .fa-css3:hover, .fa-js-square:hover, .fa-react:hover, .fa-vuejs:hover, .fa-envelope:hover {
+.fa-github:hover, .fa-linkedin:hover {
   color: rgb(242, 242, 242);
   transform: scale(1.2)
 }
@@ -135,13 +135,24 @@ body {
 }
 
 
-.skills-list {
+.skills-list-wrapper {
   display: flex;
 }
 
+.front-end-skills-list {
+  display: flex;
+  flex-flow: column;
+}
+.back-end-skills-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.back-end-skills-list h4 {
+  grid-column: 1 / -1;
+}
 ul {
   list-style-type: none;
-  text-align: center;
 }
 
 /* Menu Buttons */
@@ -156,7 +167,7 @@ ul {
 
 .menu-button, .resume-download-button {
   border: none;
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
   background: none;
   font-family: 'Molengo';
@@ -188,11 +199,11 @@ iframe.resume {
   justify-content: center;
 }
 
-/* Portfolio */
+/* Projects */
 
-.portfolio-wrapper {
-  width: 100%;
-}
+/* .portfolio-wrapper {
+  width: 50%;
+} */
 
 .portfolio-carousel {
   display: flex;
@@ -201,6 +212,7 @@ iframe.resume {
   overscroll-behavior-x: contain;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
+  padding: 20px;
   
 }
 
@@ -209,7 +221,7 @@ iframe.resume {
   flex-flow: column;
   margin: 50px 20px;
   border-radius: 10px;
-  width: 350px;
+  width: 200px;
 }
   .project-image-wrapper img {
   height: auto;
@@ -234,18 +246,25 @@ iframe.resume {
   height: auto;
 }
 
-.project-detail-name {
+.project-detail-info {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.project-detail-name a{
+  text-decoration: none;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-family: 'Molengo', sans-serif;
   color:#D99C79;
   background-color:#261C1A;
-
+  margin-bottom: 5px;
 }
 
 .project-detail-description p {
   background-color: #A69992;
   margin: 0;
-  transform: translateY(-15px);
+  /* transform: translateY(-15px); */
 }
 
