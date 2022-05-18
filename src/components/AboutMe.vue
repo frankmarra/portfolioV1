@@ -29,14 +29,13 @@
         <li>Python</li>
         <li>Django</li>
         <li>JWT Auth</li>
-        <li>Insomnia</li>
         </ul>
         </div>
-      </div>
       </div>
       <h3>Thank's for stopping by</h3>
       <p>I have walked many paths and one thing that has always remained constant is my love of creation. Whether I am writing a song, building a house, or developing an app, nothing is more satisfying than stepping back and seeing what I have helped create.		
       </p>
+      </div>
     </div>
   </div>
 </template>

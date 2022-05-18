@@ -55,27 +55,39 @@ body {
 }
 
 #word-list:before {
+  position: absolute;
   content: "Human";
-  
-  animation: cycle 8s infinite;
+  opacity: 0;
+  overflow-y: hidden;
+  animation: scrollup 2s infinite, cycle 6.5s infinite;
+  transition: .5s;
+}
+
+@keyframes scrollup {
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  95% {
+    opacity: 0;
+  }
+
+
 }
 
 @keyframes cycle {
-  0% {
-    content: 'Human';
-  }
   25% {
-    content: 'Software Engineer';
+    content: ' Software Engineer';
   }
   50% {
-    content: "Musician";
+    content: " Musician";
   }
   75% {
-    content: "Dog Dad";
-  }
-  to {
-    content: "Human";
-    
+    content: " Creator";
   }
 }
 
@@ -101,7 +113,7 @@ body {
   transition: 0.3s;
 }
 
-.fa-github:hover, .fa-linkedin:hover {
+.fa-github:hover, .fa-linkedin:hover,.fa-envelope:hover {
   color: rgb(242, 242, 242);
   transform: scale(1.2)
 }
@@ -119,7 +131,7 @@ body {
 
 .about-me-copy-wrapper {
   overflow-y: scroll;
-  background-color: #8C7365;
+  background-color: #A69992;
   border-radius: 10px;
   width: 80%;
   font-family: 'Nunito', sans-serif;
@@ -134,9 +146,14 @@ body {
   margin: 0;
 }
 
+.about-me-copy-wrapper p {
+  padding: 0 4vw;
+  text-align: center;
+}
 
 .skills-list-wrapper {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .front-end-skills-list {
@@ -268,3 +285,43 @@ iframe.resume {
   /* transform: translateY(-15px); */
 }
 
+@media screen and (max-width: 600px){
+  .page-wrapper {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .left-gutter, .right-gutter {
+    height: 5vh;
+    position: relative;
+  }
+
+  .social-links, .tech-links {
+    display: flex;
+    flex-flow: row;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .fa-github, .fa-linkedin, .fa-html5, .fa-css3, .fa-js-square, .fa-react, .fa-vuejs, .fa-envelope {
+    font-size: 2rem;
+    margin: .8vh 0;
+    transition: 0.3s;
+  }
+
+  .portfolio-carousel {
+    display: flex;
+    flex-flow: column;
+    height: 50vh;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding: 20px;
+    
+  }
+
+}
