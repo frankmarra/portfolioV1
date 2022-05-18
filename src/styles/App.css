@@ -182,7 +182,7 @@ ul {
 
 }
 
-.menu-button, .resume-download-button {
+.menu-button, .resume-download-button, .project-detail-name a  {
   border: none;
   padding: 15px;
   border-radius: 10px;
@@ -193,7 +193,7 @@ ul {
   transition: 0.3s;
 }
 
-.menu-button:hover, .resume-download-button:hover {
+.menu-button:hover, .resume-download-button:hover, .project-detail-name:hover a{
   background-color: #D99C79;
   color: #261C1A;
 }
@@ -254,13 +254,18 @@ iframe.resume {
 
 .project-detail-wrapper {
   display: flex;
+  flex-flow: column;
   align-items: center;
   width: 80%;
 }
 
 .project-detail-image {
-  width: 65%;
+  width: 75%;
   height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 6px 2px rgba(217, 203, 196, 0.4);
+  margin: 3vh 0;
+
 }
 
 .project-detail-info {
@@ -276,7 +281,11 @@ iframe.resume {
   font-family: 'Molengo', sans-serif;
   color:#D99C79;
   background-color:#261C1A;
-  margin-bottom: 5px;
+}
+
+.project-detail-name {
+  margin-bottom: 3vh;
+
 }
 
 .project-detail-description p {
