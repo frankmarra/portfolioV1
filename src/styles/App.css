@@ -292,7 +292,7 @@ iframe.resume {
   }
 
   .left-gutter, .right-gutter {
-    height: 5vh;
+    height: 8vh;
     position: relative;
   }
 
@@ -306,9 +306,26 @@ iframe.resume {
   }
 
   .fa-github, .fa-linkedin, .fa-html5, .fa-css3, .fa-js-square, .fa-react, .fa-vuejs, .fa-envelope {
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin: .8vh 0;
     transition: 0.3s;
+  }
+
+  .greeting {
+    font-family: 'Molengo', sans-serif;
+    color:#D99C79;
+    font-size: 1rem;
+    text-align: center;
+  
+  }
+
+  .greeting h4 {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .menu-button, .resume-download-button {
+    font-size: 1.3rem;
   }
 
   .portfolio-carousel {
