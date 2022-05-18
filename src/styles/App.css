@@ -94,8 +94,8 @@ body {
 .component-view {
   display:flex;
   justify-content: center;
-  height: 100%;
-  width:100%;
+  /* height: 100%;
+  width:100%; */
 }
 /* Social Links and tech badges */
 .social-links, .tech-links {
@@ -340,7 +340,7 @@ iframe.resume {
   .portfolio-carousel {
     display: flex;
     flex-flow: column;
-    height: 50vh;
+    height: 60vh;
     justify-content: flex-start;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
@@ -348,6 +348,19 @@ iframe.resume {
     scroll-behavior: smooth;
     padding: 20px;
     
+  }
+
+  .resume-wrapper {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 2vh 5vw;
+    width: 100%;
+    height: 56vh;
+  }
+
+  .about-me-wrapper {
+    height: 55vh;
   }
 
 }
