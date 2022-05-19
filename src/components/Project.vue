@@ -6,6 +6,7 @@
     <div class='project-detail-info'>
     <div class="project-detail-name">
       <a :href="project.link">{{ project.name }}</a>
+      <a :href="project.gitLink"><i class="fa-brands fa-github project"></i></a>
     </div>
     <div class="project-detail-description">
       <p>{{project.description}}</p>

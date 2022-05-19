@@ -18,13 +18,31 @@
       </div>
     </div>
     <div class="right-gutter">
-      <div class="tech-links">
+      <div class="tech-links" v-if="this.$route.params.project_id == 1">
+      Built With
         <i class="fa-brands fa-html5"></i>
         <i class="fa-brands fa-css3"></i>
         <i class="fa-brands fa-js-square"></i>
-        <i class="fa-brands fa-react"></i>
-        <i class="fa-brands fa-vuejs"></i>
       </div>
+      <div class="tech-links" v-if="this.$route.params.project_id == 2">
+      Built With
+        <i class="fa-brands fa-react fa-spin"></i>
+        <i class="fa-brands fa-css3"></i>
+        <img src="https://res.cloudinary.com/silverbeard/image/upload/v1652931914/Portfolio/Logomark_RGB_Forest-Green_um86un.png" alt="MongoDb" id="mongodb"/>
+      </div>
+      <div class="tech-links" v-if="this.$route.params.project_id == 3">
+      Built With
+        <i class="fa-brands fa-react fa-spin"></i>
+        <i class="fa-brands fa-css3"></i>
+        <img src="https://res.cloudinary.com/silverbeard/image/upload/v1652931906/Portfolio/116px-PostgreSQL_Logo.1_Color_Black_n5r32u.png" alt="PostgreSQL" id="postgres"/>
+      </div>
+      <div class="tech-links" v-if="this.$route.params.project_id == 4">
+      Built With
+        <i class="fa-brands fa-react fa-spin"></i>
+        <i class="fa-brands fa-css3"></i>
+        <img src="https://res.cloudinary.com/silverbeard/image/upload/v1652931906/Portfolio/116px-PostgreSQL_Logo.1_Color_Black_n5r32u.png" alt="PostgreSQL" id="postgres"/>
+      </div>
+        
     </div>
   </div>
 </template>
@@ -46,3 +64,4 @@ export default {
 
 </script>
 
+<!-- <i class="fa-brands fa-vuejs"></i> -->

@@ -26,6 +26,7 @@ body {
 .right-gutter {
   height: 100vh;
   background-color: #594842;
+  color: #f2f2f2;
 }
 .content {
   grid-column: 2 / 3;
@@ -111,6 +112,21 @@ body {
   color:#A69992;
   margin: 5vh 0;
   transition: 0.3s;
+}
+
+.fa-react {
+  color: #61DBFB;
+}
+
+#mongodb {
+  height: 125px;
+  width: 125px;
+}
+
+#postgres {
+  height: 60px;
+  width: 60px;
+  margin: 5vh 0;
 }
 
 .fa-github:hover, .fa-linkedin:hover,.fa-envelope:hover {
@@ -225,20 +241,23 @@ iframe.resume {
 .portfolio-carousel {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   padding: 20px;
-  
+  width: 70vw;
 }
 
 .project-wrapper {
   display: flex;
   flex-flow: column;
+  justify-content: center;
   margin: 50px 20px;
   border-radius: 10px;
-  width: 200px;
+  width: 20vmax;
+  height: 20vmax;
 }
   .project-image-wrapper img {
   height: auto;
@@ -284,7 +303,10 @@ iframe.resume {
 }
 
 .project-detail-name {
+  display:flex;
+  align-items: center;
   margin-bottom: 3vh;
+ 
 
 }
 
