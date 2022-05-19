@@ -114,6 +114,17 @@ body {
   transition: 0.3s;
 }
 
+.fa-html5 {
+  color: #E68171;
+}
+
+.fa-css3 {
+  color: #22A2DF;
+}
+
+.fa-js-square {
+  color: #EBD64C;
+}
 .fa-react {
   color: #61DBFB;
 }
