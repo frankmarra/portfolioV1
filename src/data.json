@@ -52,7 +52,7 @@
       "backEnd": "PostgreSQL, Express, Sequelize, JWT Auth"
     },
     "type": "Music Social Network",
-    "description": "How many unfinished songs do you have? The answer is always too many. Co-Lab is here to help. Upload your unfinished tracks with a description, genre, descriptive metadata, and what the song needs. Other Co-Lab users who are looking to collaborate can find your tracks by genre, metadata, and/or needs. If they like what they hear, they can send you a message asking to collaborate..",
+    "description": "How many unfinished songs do you have? The answer is always too many. Co-Lab is here to help. Upload your unfinished tracks with a description, genre, descriptive metadata, and what the song needs. Other Co-Lab users who are looking to collaborate can find your tracks by genre, metadata, and/or needs. If they like what they hear, they can send you a message asking to collaborate.",
     "images": {
       "sm": "https://res.cloudinary.com/silverbeard/image/upload/v1652930375/Portfolio/screencapture-frankcolab-herokuapp-2022-05-18-16_04_32_nmoi1f.png",
       "lg": "https://res.cloudinary.com/silverbeard/image/upload/v1652930375/Portfolio/screencapture-frankcolab-herokuapp-users-1-2022-05-18-16_06_07_ffgeuq.png"

@@ -61,9 +61,7 @@ body {
   content: "Human";
   margin-inline-start: 0.25em;
   opacity: 0;
-  overflow-y: hidden;
   animation: scrollup 3s infinite, cycle 12s 1s linear infinite;
-  /* transition: .5s; */
 }
 
 @keyframes scrollup {
@@ -294,7 +292,7 @@ iframe.resume {
 }
 
 .project-detail-image {
-  width: 75%;
+  width: 50%;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 0 6px 2px rgba(217, 203, 196, 0.4);
@@ -411,6 +409,17 @@ iframe.resume {
 
   .about-me-wrapper {
     height: 55vh;
+    margin: 2vh 0 2vh;
+
+  }
+
+  .front-end-skills-list {
+    display: flex;
+    flex-flow: column;
+  }
+  .back-end-skills-list {
+    display: flex;
+    flex-flow: column;
   }
 
 }
