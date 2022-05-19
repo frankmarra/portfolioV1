@@ -342,6 +342,19 @@ iframe.resume {
     transition: 0.3s;
   }
 
+  #mongodb {
+    height: 60px;
+    width: 60px;
+    transform: translateX(-20px);
+  }
+  
+  #postgres {
+    height: 33px;
+    width: 33px;
+    margin: .8vh 0;
+  }
+  
+
   .greeting {
     font-family: 'Molengo', sans-serif;
     color:#D99C79;
