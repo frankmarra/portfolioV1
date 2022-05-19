@@ -220,7 +220,7 @@ ul {
   transition: 0.3s;
 }
 
-.menu-button:hover, .resume-download-button:hover, .project-detail-name:hover a{
+.menu-button:hover, .resume-download-button:hover, .project-detail-name a:hover {
   background-color: #D99C79;
   color: #261C1A;
 }
@@ -294,8 +294,7 @@ iframe.resume {
   height: auto;
   border-radius: 10px;
   box-shadow: 0 0 6px 2px rgba(217, 203, 196, 0.4);
-  margin: 3vh 0;
-
+  margin: 3vh 0 1vh;
 }
 
 .project-detail-info {
@@ -304,7 +303,7 @@ iframe.resume {
   align-items: center;
 }
 
-.project-detail-name a{
+.project-detail-name a {
   text-decoration: none;
   text-align: center;
   font-size: 1.8rem;
@@ -313,17 +312,16 @@ iframe.resume {
   background-color:#261C1A;
 }
 
-.project-detail-name {
+.project-detail-name ul{
   display:flex;
   align-items: center;
-  margin-bottom: 3vh;
- 
+  align-content: center;
 
 }
 
 .project-detail-description p {
   background-color: #A69992;
-  margin: 0;
+  margin: .5vh 0 0;
   /* transform: translateY(-15px); */
 }
 

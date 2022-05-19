@@ -5,8 +5,10 @@
     
     <div class='project-detail-info'>
     <div class="project-detail-name">
-      <a :href="project.link">{{ project.name }}</a>
-      <a :href="project.gitLink"><i class="fa-brands fa-github project"></i></a>
+      <ul>
+      <li><a :href="project.link">{{ project.name }}</a></li>
+      <li><a :href="project.gitLink"><i class="fa-brands fa-github project"></i></a></li>
+      </ul>
     </div>
     <div class="project-detail-description">
       <p>{{project.description}}</p>
@@ -29,3 +31,17 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .fa-github {
+    margin: 0;
+    font-size: inherit;
+    color: inherit;
+    transition: none;
+  }
+
+  .fa-github:hover {
+    color: inherit;
+    transform: inherit;
+  }
+</style>
