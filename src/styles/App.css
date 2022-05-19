@@ -53,15 +53,17 @@ body {
 
 .greeting h4 {
   margin: 0;
+  transform: translateX(-3%);
 }
 
 #word-list:before {
   position: absolute;
   content: "Human";
+  margin-inline-start: 0.25em;
   opacity: 0;
   overflow-y: hidden;
-  animation: scrollup 2s infinite, cycle 6.5s infinite;
-  transition: .5s;
+  animation: scrollup 3s infinite, cycle 12s 1s linear infinite;
+  /* transition: .5s; */
 }
 
 @keyframes scrollup {
@@ -69,9 +71,9 @@ body {
     opacity: 0;
     transform: translateY(50%);
   }
-  80% {
+  50% {
     opacity: 1;
-    transform: translateY(0%);
+    transform: translateY(4%);
   }
   95% {
     opacity: 0;
@@ -81,6 +83,7 @@ body {
 }
 
 @keyframes cycle {
+
   25% {
     content: ' Software Engineer';
   }
@@ -90,6 +93,7 @@ body {
   75% {
     content: " Creator";
   }
+
 }
 
 .component-view {
@@ -284,7 +288,7 @@ iframe.resume {
 
 .project-detail-wrapper {
   display: flex;
-  flex-flow: column;
+  flex-flow: column-reverse;
   align-items: center;
   width: 80%;
 }
@@ -322,6 +326,8 @@ iframe.resume {
 .project-detail-description p {
   background-color: #A69992;
   margin: .5vh 0 0;
+  border-radius: 10px;
+  padding: 15px;
   /* transform: translateY(-15px); */
 }
 

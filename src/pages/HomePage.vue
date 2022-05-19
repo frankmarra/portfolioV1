@@ -10,7 +10,7 @@
     <div class="content">
       <div class="greeting">
       <h1>Hello, I'm Frank.</h1>
-      <h4>I am a <span id="word-list"></span></h4>
+      <h4>I am a {{' '}}<span id="word-list"></span></h4>
       </div>
       <MenuButtons />
       <div class="component-view">
