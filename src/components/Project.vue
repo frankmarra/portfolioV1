@@ -3,7 +3,7 @@
     
     <div class="project-detail-name">
       <ul>
-      <li><a :href="project.link" target="_blank">{{ project.name }}</a></li>
+      <li><a :href="project.link" target="_blank">Visit {{ project.name }}</a></li>
       <li><a :href="project.gitLink" target="_blank"><i class="fa-brands fa-github project"></i></a></li>
       </ul>
     </div>
