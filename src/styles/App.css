@@ -89,7 +89,7 @@ body {
     content: "Musician";
   }
   75% {
-    content: "Creator";
+    content: "Gamer";
   }
 
 }
@@ -149,6 +149,7 @@ body {
 /* AboutMe styles */
 
 .about-me-copy-wrapper {
+
   overflow-y: scroll;
   background-color: #A69992;
   border-radius: 10px;
@@ -157,12 +158,14 @@ body {
   color: #261C1A;
   padding: 0 3vw;
   margin-block: 5vh;
-  align-items: flex-start;
+  text-align: center;
+  font-size: 1.3rem;
+
 }
 
-.about-me-copy-wrapper h3, h4 {
+.about-me-copy-wrapper h2, h3 {
   text-align: center;
-  font-size: 1.4rem;
+
   margin: 0;
 }
 
@@ -173,6 +176,7 @@ body {
 
 .skills-list-wrapper {
   display: flex;
+  flex-flow: column;
   justify-content: space-evenly;
 }
 
@@ -182,6 +186,17 @@ body {
   align-items: center;
 }
 
+.front-end-skills-list ul, .back-end-skills-list ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 1vh;
+  padding: 0;
+}
+
+.front-end-skills-list li, .back-end-skills-list li {
+  margin-inline: 1vw;
+}
 
 
 .back-end-skills-list h4 {
@@ -280,6 +295,7 @@ iframe.resume {
   height: 100%;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  text-align: center;
 }
 
 /* Project Page */
@@ -289,6 +305,7 @@ iframe.resume {
   flex-flow: column;
   align-items: center;
   width: 80%;
+  font-family: 'Nunito', sans-serif;
 }
 
 .project-images {
@@ -320,6 +337,7 @@ iframe.resume {
   background-color: #A69992;
   border-radius: 10px;
   padding: 0 3vw;
+  font-size: 1.2rem;
 }
 
 .project-detail-name a {
