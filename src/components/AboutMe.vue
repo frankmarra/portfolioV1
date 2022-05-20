@@ -9,31 +9,26 @@
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
-        <li>React including Redux and React-Router</li>
-        <li>Vue including Vue-Router</li>
+        <li>React</li>
+        <li>Vue</li>
       </ul>
         </div>
         <div class="back-end-skills-list">
         <h4>Back End</h4>
       <ul>
-        <li>Node</li>
         <li>Express</li>
         <li>MongoDB</li>
         <li>Mongoose</li>
-        <li>SQL</li>
-      </ul>
-      <ul>
         <li>PostgreSQL</li>
         <li>Sequelize</li>
         <li>Python</li>
         <li>Django</li>
-        <li>JWT Auth</li>
         </ul>
         </div>
       </div>
       <h3>Thank's for stopping by</h3>
       <p>I have walked many paths and one thing that has always remained constant is my love of creation. Whether I am writing a song, building a house, or developing an app, nothing is more satisfying than stepping back and seeing what I have helped create.		
-      </p>
+      </p>  
       </div>
     </div>
 </template>
