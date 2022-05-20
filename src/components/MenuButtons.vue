@@ -1,15 +1,9 @@
 <template>
   <div class="menu-buttons">
-      <div class="menu-button-wrapper" @click="navigateItem('')">
-          <button class="about-button menu-button">About Me</button>
-      </div>
-      <div class="menu-button-wrapper" @click="navigateItem('portfolio')">
-          <button class="portfolio-button menu-button">Projects</button>
-      </div>
-      <div class="menu-button-wrapper" @click="navigateItem('resume')">
-          <button class="resume-button menu-button" name="Resume" >Resume</button>
-      </div>
-    </div>
+    <button class="about-button menu-button" @click="navigateItem('')">About Me</button>
+    <button class="portfolio-button menu-button" @click="navigateItem('portfolio')">Projects</button>
+    <button class="resume-button menu-button" @click="navigateItem('resume')">Resume</button>
+  </div>
 </template>
 
 <script>

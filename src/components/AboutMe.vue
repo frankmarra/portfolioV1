@@ -1,5 +1,4 @@
 <template>
-  <div class="about-me-wrapper">
     <div class="about-me-copy-wrapper">
       <div class="about-me-copy">
       <h4>Skills</h4>
@@ -37,7 +36,6 @@
       </p>
       </div>
     </div>
-  </div>
 </template>
 
 <script>

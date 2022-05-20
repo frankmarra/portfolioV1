@@ -6,8 +6,13 @@
   box-sizing: border-box;
 }
 
+html,
+body,
+#app {
+  height: 100%;
+}
+
 body {
-  height: 100vh;
   margin: 0;
   background-color: #261C1A;
 }
@@ -17,17 +22,17 @@ body {
 .page-wrapper {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
+  height: 100%;
 }
-.left-gutter {
-  height: 100vh;
+.gutter {
   background-color: #594842;
 }
 
-.right-gutter {
+/* .right-gutter {
   height: 100vh;
   background-color: #594842;
   color: #f2f2f2;
-}
+} */
 .content {
   grid-column: 2 / 3;
   display: flex;
@@ -46,19 +51,19 @@ body {
 
 }
 
-.greeting h1 {
+.heading {
   margin-top: 3vh;
   margin-bottom: 0;
 }
 
-.greeting h4 {
+.subheading {
   margin: 0;
   transform: translateX(-3%);
 }
 
-#word-list:before {
-  position: absolute;
+.subheading:after {
   content: "Human";
+  position: absolute;
   margin-inline-start: 0.25em;
   opacity: 0;
   animation: scrollup 3s infinite, cycle 12s 1s linear infinite;
@@ -83,13 +88,13 @@ body {
 @keyframes cycle {
 
   25% {
-    content: ' Software Engineer';
+    content: 'Developer';
   }
   50% {
-    content: " Musician";
+    content: "Musician";
   }
   75% {
-    content: " Creator";
+    content: "Creator";
   }
 
 }
@@ -97,11 +102,12 @@ body {
 .component-view {
   display:flex;
   justify-content: center;
+  flex: 1;
   /* height: 100%;
   width:100%; */
 }
 /* Social Links and tech badges */
-.social-links, .tech-links {
+.social-links, .tech-used {
   display: flex;
   flex-flow: column;
   padding: 10vh 0;
@@ -149,15 +155,6 @@ body {
 
 /* AboutMe styles */
 
-.about-me-wrapper {
-  display: flex;
-  flex-flow: column;
-  overflow-y: scroll;
-  align-items: center;
-  margin-top: 5vh;
-  
-}
-
 .about-me-copy-wrapper {
   overflow-y: scroll;
   background-color: #A69992;
@@ -165,8 +162,9 @@ body {
   width: 80%;
   font-family: 'Nunito', sans-serif;
   color: #261C1A;
-  height: 60vh;
   padding: 0 3vw;
+  margin-block: 5vh;
+  align-items: flex-start;
 }
 
 .about-me-copy-wrapper h3, h4 {
@@ -335,12 +333,12 @@ iframe.resume {
     flex-flow: column;
   }
 
-  .left-gutter, .right-gutter {
+  .gutter {
     height: 8vh;
     position: relative;
   }
 
-  .social-links, .tech-links {
+  .social-links, .tech-used {
     display: flex;
     flex-flow: row;
     padding: 0;
