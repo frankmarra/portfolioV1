@@ -24,7 +24,7 @@
     "description": "Backlog aims to help you keep track of your library of games by sorting them into catagories of 'Not Started', 'In Progress', and 'Completed'. You are also able to add notes to the games in your library, so if you decide to take a break from one game and start another. This will make it easier to come back to a game later on and have useful information to look at.  Follow the links to view the site, or see the full ReadMe on Github.",
     "caseStudy": "<p>This is the second project I made during the GA Software Immersive course.  We were given one week to develop an app using React and MongoDB that had at least two models and full CRUD on one of them.</p><p>For this project, I pulled the game data from the RAWG API and created a database of users, games and notes.</p>",
     "images": {
-      "sm": "https://res.cloudinary.com/silverbeard/image/upload/v1652849341/Portfolio/screencapture-franksbacklog-herokuapp-2022-05-18-00_42_48_wroets.png",
+      "sm": "https://res.cloudinary.com/silverbeard/image/upload/v1652849342/Portfolio/screencapture-franksbacklog-herokuapp-users-6247019f3362d48c98e8ceba-2022-05-18-00_44_07_k07i3a.png",
       "lg": "https://res.cloudinary.com/silverbeard/image/upload/v1652849341/Portfolio/screencapture-franksbacklog-herokuapp-users-6247019f3362d48c98e8ceba-games-558972-2022-05-18-00_45_13_lvun6c.png"
     },
     "link": "https://franksbacklog.herokuapp.com/",

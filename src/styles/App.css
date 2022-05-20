@@ -261,7 +261,7 @@ iframe.resume {
   flex: 1;
 }
 
-.project-wrapper:hover {
+.project-wrapper:hover, .project-detail-image:hover {
   transform: scale(1.2);
   box-shadow: 0 0 6px 2px rgba(217, 203, 196, 0.4);
 }
@@ -291,12 +291,26 @@ iframe.resume {
   width: 80%;
 }
 
+.project-images {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding: 3vh;
+
+    margin: 2vh 0;
+}
+
 .project-detail-image {
   width: 50%;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 0 6px 2px rgba(217, 203, 196, 0.4);
   margin: 3vh 0 1vh;
+  transition: .3s;
 }
 
 .project-detail-info {
