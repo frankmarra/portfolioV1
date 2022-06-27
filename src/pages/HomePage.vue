@@ -3,7 +3,7 @@
     <aside class="gutter">
       <ul class="social-links">
       <li><a href="https://github.com/frankmarra" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-      <li><a href="www.linkedin.com/in/frankrmarra" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/frankrmarra/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
       <li><a href="mailto:frankrmarra@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
       </ul>
     </aside>
