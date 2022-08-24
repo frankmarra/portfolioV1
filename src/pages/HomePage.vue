@@ -42,6 +42,12 @@
         <li><i class="fa-brands fa-css3"></i></li>
         <li><img src="https://res.cloudinary.com/silverbeard/image/upload/v1652931906/Portfolio/116px-PostgreSQL_Logo.1_Color_Black_n5r32u.png" alt="PostgreSQL" id="postgres"/></li>
       </ul>
+      <ul class="tech-used" v-if="this.$route.params.project_id == 5">
+      Built With
+        
+        <li><i class="fa-brands fa-css3"></i></li>
+        <li><img src="https://res.cloudinary.com/silverbeard/image/upload/v1652931906/Portfolio/116px-PostgreSQL_Logo.1_Color_Black_n5r32u.png" alt="PostgreSQL" id="postgres"/></li>
+      </ul>
     </aside>
   </div>
 </template>
