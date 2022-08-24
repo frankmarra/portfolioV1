@@ -413,6 +413,10 @@ iframe.resume {
     margin: .8vh 0;
   }
   
+  img#next {
+    height: 50px;
+    margin: .8vh 0;
+  }
 
   .greeting {
     font-family: 'Molengo', sans-serif;
